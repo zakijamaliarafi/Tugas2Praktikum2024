@@ -8,9 +8,9 @@ Shift Baru: D
 
 # Penjelasan Proses Passing Data dari Form ke Tampilan
 
-1. Pengumpulan Data di FormData
-    - Di dalam class `FormDataState`, memiliki tiga `TextEditingController`: `_namaController`, `_nimController`, dan `_tahunController`.
-    - Controller-controller ini terhubung dengan masing-masing `TextFormField` di form.
+1. Pengumpulan Data pada FormData
+    - Di dalam class `FormDataState`, terdapat tiga `TextEditingController`: `_namaController`, `_nimController`, dan `_tahunController`.
+    - Masing-masing controller ini terhubung dengan `TextFormField` di form untuk mengumpulkan data input dari pengguna.
 
 2. Validasi Input
     - Sebelum melakukan passing data, melakukan validasi input menggunakan `_formKey.currentState!.validate()`.
@@ -47,7 +47,7 @@ Shift Baru: D
       Text("NIM: $nim"),
       Text("Umur: $umur tahun"),
 
-Dengan cara ini, data yang diinput oleh pengguna di `FormData` berhasil diteruskan dan ditampilkan di `TampilData`. Proses ini memungkinkan untuk memisahkan logika input dan tampilan hasil, sambil tetap mempertahankan alur data yang jelas dan efisien.
+Dengan pendekatan ini, data input yang dimasukkan oleh pengguna di form `FormData` dapat diteruskan dan ditampilkan di halaman `TampilData`. Proses ini menjaga pemisahan logika input dan tampilan hasil, sambil memastikan alur data yang terstruktur dan efisien.
 ## Screenshot
 Contoh :
 <img src="form.png" alt="form" width="300"/>
