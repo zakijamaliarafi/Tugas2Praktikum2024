@@ -50,5 +50,5 @@ Shift Baru: D
 Dengan cara ini, data yang diinput oleh pengguna di `FormData` berhasil diteruskan dan ditampilkan di `TampilData`. Proses ini memungkinkan untuk memisahkan logika input dan tampilan hasil, sambil tetap mempertahankan alur data yang jelas dan efisien.
 ## Screenshot
 Contoh :
-<img src="form.png" alt="form" width="200"/>
-<img src="hasil.png" alt="hasil" width="200"/>
+<img src="form.png" alt="form" width="300"/>
+<img src="hasil.png" alt="hasil" width="300"/>
